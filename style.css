@@ -1,0 +1,304 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 60px 8%;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    background-color: #5424b8;
+    height: 600px;
+    margin: 15px;
+    padding: 20px;
+}
+
+.logo {
+    display: inline-block;
+    width: 40%;
+}
+
+.logo h2 {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.circulo-logo {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 3px solid violet;
+    border-radius: 50%;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.principal {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.principal h1 {
+    font-size: 45px;
+}
+
+.principal p {
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: violet;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.servicos {
+    background-color: #17152e;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #d58aff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.servicos h2,
+.sobre h2 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.texto-servicos {
+    max-width: 750px;
+    margin: 20px auto 40px;
+    line-height: 1.5;
+}
+
+.cartoes {
+    text-align: center;
+}
+
+.cartao {
+    display: inline-block;
+    background-color: #6445b9;
+    width: 26%;
+    height: 140px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.cartao h3 {
+    font-size: 14px;
+}
+
+.cartao p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.sobre {
+    background-color: #30205d;
+    text-align: center;
+}
+
+.conteudo-sobre {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.texto-sobre {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.texto-sobre h3 {
+    color: #d58aff;
+    font-size: 18px;
+}
+
+.texto-sobre p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.imagem-sobre {
+    display: inline-block;
+    background-color: #6835d0;
+    width: 45%;
+    height: 250px;
+    margin-left: 4%;
+    border-radius: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.bolinha {
+    display: inline-block;
+    background-color: #a88af2;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 45px 8px 0;
+}
+
+.bolinha2 {
+    width: 65px;
+    height: 65px;
+}
+
+.bolinha3 {
+    width: 70px;
+    height: 70px;
+}
+
+.bolinha4 {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.bolinha5 {
+    width: 65px;
+    height: 65px;
+    margin-top: 15px;
+}
+
+.bolinha6 {
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #100e1b;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer h2 {
+    color: #c58aff;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.final {
+    margin-top: 30px;
+    color: #aaaaaa;
+}
+
+@media (max-width: 700px) {
+
+    header {
+        height: 600px;
+        margin: 8px;
+        padding: 15px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .menu {
+        margin-top: 15px;
+    }
+
+    .menu a {
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    .principal {
+        margin-top: 100px;
+    }
+
+    .principal h1 {
+        font-size: 32px;
+    }
+
+    .principal p {
+        font-size: 14px;
+    }
+
+    .cartao {
+        width: 80%;
+        height: auto;
+    }
+
+    .texto-sobre {
+        width: 100%;
+    }
+
+    .imagem-sobre {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .bolinha {
+        width: 35px;
+        height: 35px;
+        margin: 45px 4px 0;
+    }
+
+    .bolinha2 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .bolinha3 {
+        width: 45px;
+        height: 45px;
+    }
+
+    .bolinha4 {
+        width: 35px;
+        height: 35px;
+        margin-top: 15px;
+    }
+
+    .bolinha5 {
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+    }
+
+    .bolinha6 {
+        width: 45px;
+        height: 45px;
+        margin-top: 15px;
+    }
+
+}
