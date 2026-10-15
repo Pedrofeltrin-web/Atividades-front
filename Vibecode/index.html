@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Argila Viva — Ateliê de cerâmica para iniciantes</title>
+<meta name="description" content="Oficinas de cerâmica para quem nunca tocou no barro. Turmas pequenas, queima inclusa, peça pra levar pra casa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="wrap"><nav><div class="logo">Argila<span>Viva</span></div><div class="links"><a href="#beneficios">Benefícios</a><a href="#como">Como funciona</a><a href="#faq">Perguntas</a></div><a class="btn" href="#inscricao">Reservar vaga</a></nav></header>
+
+<main>
+<div class="wrap hero">
+  <div>
+    <span class="tag">TURMAS DE 6 PESSOAS · SÃO PAULO</span>
+    <h1>Suje as mãos. <em>Saia com uma peça sua.</em></h1>
+    <p>Oficina de cerâmica para quem nunca tocou no barro. Você modela, a gente queima e esmalta. Em 3 encontros, um vaso ou tigela feito por você.</p>
+    <a class="btn" href="#inscricao">Quero participar</a><a class="btn alt" href="#como">Como funciona</a>
+  </div>
+  <div class="art" aria-hidden="true">
+    <svg viewBox="0 0 200 240"><path d="M70 20h60v18c0 8 38 28 38 88 0 58-30 94-68 94s-68-36-68-94c0-60 38-80 38-88z" fill="#B0431F"/><path d="M62 70c20 14 56 14 76 0" stroke="#E0A526" stroke-width="8" fill="none" stroke-linecap="round"/><path d="M52 130c30 14 66 14 96 0" stroke="#F5EBDD" stroke-width="5" fill="none" stroke-linecap="round" opacity=".8"/></svg>
+  </div>
+</div>
+
+<section class="dark" id="beneficios"><div class="wrap">
+  <h2>Por que fazer com as mãos</h2>
+  <p class="sub">Menos tela, mais textura. Três motivos que nossos alunos repetem.</p>
+  <div class="cards">
+    <div class="card"><div class="n">01</div><h3>Pausa de verdade</h3><p>Duas horas sem notificação. O barro pede atenção total e devolve calma.</p></div>
+    <div class="card"><div class="n">02</div><h3>Zero experiência</h3><p>Começamos do básico: sovar, levantar parede, alisar. Erro faz parte do processo.</p></div>
+    <div class="card"><div class="n">03</div><h3>Peça pra vida toda</h3><p>Queima e esmalte inclusos. Sua primeira peça, imperfeita e sua, fica pronta em 3 semanas.</p></div>
+  </div>
+</div></section>
+
+<section id="como"><div class="wrap">
+  <h2>Como funciona</h2>
+  <p class="sub">Três encontros de 2h30, sempre aos sábados.</p>
+  <div class="steps">
+    <div><h3>1. Modelar</h3><p>Aprenda a técnica de pinça e rolinhos e monte sua peça.</p></div>
+    <div><h3>2. Acabar</h3><p>Alise, decore e escolha o esmalte. Nós cuidamos da queima.</p></div>
+    <div><h3>3. Levar pra casa</h3><p>Retire sua peça pronta e brinde com um café.</p></div>
+  </div>
+</div></section>
+
+<section style="background:var(--areia)"><div class="wrap">
+  <p class="quote">“Achei que não tinha coordenação pra isso. Fiz uma tigela torta e é a coisa que mais uso na cozinha.”<small>— Marina, aluna da turma de agosto (depoimento fictício)</small></p>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <h2>Perguntas frequentes</h2>
+  <p class="sub">O que mais nos perguntam antes da primeira aula.</p>
+  <details><summary>Preciso ter experiência?</summary><p>Não. A turma é pensada para quem nunca tocou no barro.</p></details>
+  <details><summary>E se minha peça ficar torta?</summary><p>Faz parte. Ensinamos a corrigir o que dá e a gostar do que fica.</p></details>
+  <details><summary>A queima está inclusa?</summary><p>Sim: queima, esmalte e materiais entram nos R$ 390.</p></details>
+  <details><summary>Posso levar um amigo?</summary><p>Pode. Turmas de 6 pessoas, e duplas ganham lugares lado a lado.</p></details>
+</div></section>
+
+<section id="inscricao"><div class="wrap">
+  <div class="price">
+    <div><h2>Próxima turma: sábados de novembro</h2><p>Materiais, queima e esmalte inclusos.</p>
+    <form onsubmit="event.preventDefault();this.querySelector('button').textContent='Recebido! ✓'"><input type="email" placeholder="seu@email.com" aria-label="E-mail" required><button class="btn" type="submit">Entrar na lista</button></form></div>
+    <div class="big">R$ 390</div>
+  </div>
+</div></section>
+</main>
+<footer>Argila Viva · Projeto de estudo de vibecode · Marca e depoimentos fictícios</footer>
+</body>
+</html>
